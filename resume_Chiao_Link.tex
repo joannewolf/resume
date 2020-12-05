@@ -1,0 +1,276 @@
+\documentclass[13pt, a4paper]{awesome-cv}
+\geometry{left=1cm, top=1.2cm, right=1cm, bottom=1cm}
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\linespread{1.2}
+\colorlet{awesome}{awesome-skyblue}
+\definecolor{awesome}{HTML}{000000}
+\usepackage{import}
+\usepackage{hyperref}
+
+%%% Essentials
+\name{Chiao}{Fu}
+\address{11756 Westview Pkwy. Apt 18, San Diego, CA, USA, 92126}
+\mobile{+1(858) 999-4785} 
+%%% Social
+\email{chiaofu93@gmail.com}
+%\homepage{www.posquit0.com}
+\github{joannewolf}
+\linkedin{chiao-fu}
+%%% Optionals
+% \position{Software Engineer Security Expert}
+% \quote{``Make the change that you want to see in the world."}
+
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+% \makecvfooter
+%     {\today}
+%     {Chiao Fu~~~·~~~Résumé}
+%     {}
+
+\begin{document}
+%%% Make a header for CV with personal data
+\makecvheader
+
+%\cvsection{Objective}
+%\cvparagraph{
+%Seeking a full-time software engineering position for new grad in 2018, with interests in software engineering, human-computer interaction and embedded system, but open to any field and challenge. A quick learner and active team player with 6-year programming experience and research ability.}
+
+\cvsection{Work Experience}
+\begin{cventries}
+    \cventry
+        {Software Engineer}
+        {Intuit. Inc}
+        {San Diego, USA}
+        {Jun. 2018 - Present}
+        {
+        \begin{cvitems}
+            \item {Built and maintained data ETL pipelines to support data analysts and data scientists, which processing over millions of transactions daily}
+            \item {Built and owned frameworks to apply configuration-as-code for managing transient clusters and data ingestion, which broadly used by 40+ engineers}
+            \item {Applied big data technologies like Hadoop, Spark, Kafka, and AWS Cloud technologies to implement big data batch or streaming processing}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {Software Engineering Intern}
+        {Delta Electronics Research Center}
+        {Taipei, Taiwan}
+        {Jul. 2017 - Aug. 2017}
+        {
+        \begin{cvitems}
+            \item {Developed web user interface for controlling automated guided vehicle (AGV) and showing its real-time status c}
+            \item {Integrated the AGV with IEEE 802.15.4 radio module and ensured connection security in factory scenarios \textit{(C/C++)}}
+            \item {Integrated the AGV with wireless charging module exploiting CAN-bus protocol based on Robotics Operating System (ROS) \textit{(C/C++)}}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {Software Engineering Intern}
+        {MediaTek}
+        {Hsinchu, Taiwan}
+        {Jul. 2015 - Aug. 2015}
+        {
+        \begin{cvitems}
+            \item {Developed an automated testing system for Android TV with user-friendly web interface \textit{(UNIX shell scripting, HTML, JavaScript, CSS)}}
+            \item {Designed unified format for testing scripts, which made it easier to add or edit test cases \textit{(System Design)}}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {Administrative Team Leader}
+        {Network Administration Team, CSIE, NTU}
+        {Taipei, Taiwan}
+        {Sep. 2015 - Jun. 2016}
+        {
+        \begin{cvitems}
+            \item {Assisted in managing and improving the network environment of CSIE building in NTU}
+            \item {Hosted weekly meetings with total 4 teams of more than 20 people}
+        \end{cvitems}
+        }
+\end{cventries}
+
+
+\cvsection{Education}
+\begin{cventries}
+    \cventry
+        {M.S. in Computer Science and Engineering}
+        {University of California, San Diego (UCSD)}
+        {San Diego, USA}
+        {Sep. 2016 - Mar. 2018}
+        {
+        \begin{cvitems}
+            % \item {GPA: 3.4/4.0}
+            \item {Course: Algorithm, Software Engineering, Database System, Communication Network, Embedded System, Human-Computer Interaction Design}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {B.S. in Computer Science and Information Engineering \& Economics}
+        {National Taiwan University (NTU)}
+        {Taipei, Taiwan}
+        {Sep. 2011 - Jun. 2016}
+        {
+        \begin{cvitems}
+            \item {Mobile and Vehicular Network Laboratory, Software Engineering Laboratory}
+        \end{cvitems}
+        }
+\end{cventries}
+
+
+\cvsection{Project Experience}
+\begin{cventries}
+    \cventry
+        {
+            \href{https://github.com/huang-chenyu/Those-Days}{[project link]}
+            \href{https://www.slideshare.net/joannelovecat/those-days-86206667}{[slide link]}
+        }
+        {Those Days: Auto-generated Diary Utilizing Context Information - Android App}
+        %{San Diego, USA}
+        {}
+        {Sep. 2017 - Dec. 2017}
+        {
+        \begin{cvitems}
+            \item {Designed, implemented and performed experiments on the core algorithm to convert raw context data to meaningful events \textit{(Java)}}
+            \item {Established features modularization and achieved efficient parallel development while adopting Agile methodology}
+        \end{cvitems}
+        }
+
+    \cventry
+        {
+            \href{https://www.youtube.com/watch?v=3Wm0Gn6tPUo}{[video link]}
+            \href{https://github.com/joannewolf/ASTREL}{[project link]}
+            \href{https://www.slideshare.net/joannelovecat/astrel-a-smart-task-reminder-for-elderly}{[slide link]}
+        }
+        {ASTREL: A Smart Task Reminder for the ELderly - Android App, Embedded System}
+        % {San Diego, USA}
+        {}
+        {Apr. 2017 - Jun. 2017}
+        {
+        \begin{cvitems}
+            \item {Built smart home devices with Raspberry Pi and sensors to gather information of task completion \textit{(C/C++)}}
+            \item {Integrated with Google Firebase Database and Firebase Cloud Messaging to update notification schedule dynamically and automatically \textit{(Python)}}
+            \item {Developed an Android app as a task reminder, which users can customize their voice and text messages \textit{(Java)}}
+        \end{cvitems}
+        }
+
+    \cventry
+        % {Corm Member}
+        {}
+        {Humanometer: Human Counting System based on Computer Vision - Embedded System}
+        % {San Diego, USA}
+        {}
+        {Jan. 2017 - Mar. 2017}
+        {
+        \begin{cvitems}
+            \item {Developed a human counting system exploiting OpenCV on Raspberry Pi (C/C++)}
+            \item {Achieved system detection rate over 85\% and human recognition rate over 95\% with processing rate up to 20 fps}
+        \end{cvitems}
+        }
+
+    \cventry
+        {
+            \href{https://www.youtube.com/watch?v=ICQDMVz0Bzg}{[video link]}
+            \href{https://github.com/ssvictorlin/MeHow}{[project link]}
+            \href{http://140.112.91.208/~joannewolf/poster_MeHow.pdf}{[poster link]}
+        }
+        {MeHow: Smart Diary in Your Pocket - Mobile Web App}
+        % {San Diego, USA}
+        {}
+        {Dec. 2016 - Mar. 2017}
+        {
+        \begin{cvitems}
+            \item {Developed an responsive mobile web app for user to easily keep a diary with text, photo, or voice recording \textit{(HTML, JavaScript, CSS)}}
+            \item {Constructed the infrastructure of web app using Node.js, Express.js, and Bootstrap framework}
+            \item {Created the whole app from designing and prototyping to implementation and performing experiments}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {
+            \href{https://github.com/LouisNW/CSE210_SplitSmart}{[project link]}
+        }
+        {SplitSmart - Android App}
+        % {San Diego, USA}
+        {}
+        {Sep. 2016 - Dec. 2016}
+        {
+        \begin{cvitems}
+            \item {Adopted Agile methodology to develop an Android app for users to easily share bills by scanning receipts \textit{(Java)}}
+            \item {Designed and implemented the model-view-controller (MVC) system structure applying object-oriented design \textit{(System Design)}}
+        \end{cvitems}
+        }
+    
+    \cventry
+        {
+            \href{http://ieeexplore.ieee.org/document/7396559}{[paper link]}
+            \href{http://www.slideshare.net/joannelovecat/lightbib-marathoner-recognition-system-with-visible-light-communications}{[slide link]}
+        }
+        {LightBib: Marathoner Recognition System with Visible Light Communication - Embedded Sys.}
+        % {Taipei, Taiwan}
+        {}
+        {Jun. 2015 - Dec. 2015}
+        {
+        \begin{cvitems}
+            \item {Designed and implemented the novel communication and recognition system from zero using OpenCV and embedded systems \textit{(C/C++, Arduino)}}
+            \item {With average recall of 90\% to automatically identify each of the 5 runners in a single image in a wide range of scenarios}
+            \item {Was a team leader and contributed in every stage of the project from designing, implementing and evaluation to writing paper and presentation}
+                \item {Implemented the communication system from zero with Arduino and openCV skills  }
+            \item {
+                \href{http://ieeexplore.ieee.org/document/7396559}{[paper link]}
+                    \href{http://www.slideshare.net/joannelovecat/lightbib-marathoner-recognition-system-with-visible-light-communications}{[slide link]}
+                }
+        \end{cvitems}
+        }
+        
+    \cventry
+        {
+            \href{https://www.youtube.com/watch?v=ase3DLZJ1jU}{[video link]}
+            \href{https://www.slideshare.net/joannelovecat/to-ppass-or-not-to-pass}{[slide link]}
+        }
+        {Visible Light Communication between Vehicle \& Traffic Signal - Embedded System}
+        % {Taipei, Taiwan}
+        {}
+        {Apr. 2015 - Aug. 2015}
+        {
+        \begin{cvitems}
+            \item {Successfully implemented the Green Light Optimal Speed Advisory (GLOSA) algorithm, providing drivers the most optimal speed when passing the traffic light}
+            \item {Built the whole system including a car and a traffic light in miniature \textit{(C/C++, Arduino)}}
+            \item {Won Finalist Certificate in 2015 TECO Green Tech Contest}
+        \end{cvitems}
+        }
+        \item {
+            \href{http://dl.acm.org/citation.cfm?id=2801079}{[paper link]} 
+            \href{https://www.youtube.com/watch?v=6HaaTlJPmUo}{[video link]}
+            \href{http://peng.cse.ohio-state.edu/VLCS-2015/slides/s2p3.pptx}{[slide link]}
+        }
+\end{cventries}
+
+\cvsection{Skills}
+\begin{cvskills}
+    \cvskill {Programming Language}{JAVA, Scala, Python, C/C++, Matlab, UNIX shell scripting}
+    \cvskill {Technology}{Amazon Web Service, Spark, Hadoop, Kafka, Apache Beam}
+    \cvskill {Software}{Git, Android Studio, Arduino, OpenCV, Visual Studio, AutoCad, \LaTeX}
+    \cvskill {Knowledge}{Object-Oriented Programming, Design Patterns, Agile Software Development}
+    % \cvskill {Transferable Skill}{Being a team player, Quick learner, Time management, Decision-making, Problem-solving, Unafraid of failure}
+    % \cvskill {Language}{fluent English, native Mandarin}
+\end{cvskills}
+
+\cvsection{Publication}
+\begin{cventries}
+    \cventry
+        {LightBib: Marathoner Recognition System with Visible Light Communication, first author}
+        {IEEE International Conference on Internet of Things (iThings)}
+        {Sydney, Australia}
+        {Dec. 2015}
+        {}
+    \cventry
+        {LiBeamScanner: Accurate Indoor Positioning with Sweeping Light Beam, third author}
+        {ACM Workshop on Visible Light Communication Systems (VLCS)}
+        {Paris, France}
+        {Sep. 2015}
+        {}
+\end{cventries}
+
+\end{document}

@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[13pt, a4paper]{awesome-cv}
+\linespread{1.2}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-skyblue}
+\definecolor{awesome}{HTML}{000000}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Chiao}{Fu}
+\address{\#3012, 3869 Miramar St., La Jolla, CA, USA, 92037}
+\mobile{+1(858) 999-4785} 
+%%% Social
+\email{chiaofu93@gmail.com}
+\github{joannewolf}
+\linkedin{chiao-fu}
+%%% Optionals
+%%\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
+\position{M.S. in Computer Science and Engineering{\enskip\cdotp\enskip}University of California San Diego}
+%\quote{``Life, from the moment of birth to death, is a process of learning."}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\recipient
+    {Company Recruitment Team}
+    {Pocket Gems}
+\letterdate{\today}
+\lettertitle{Job Application for Software Engineer}
+\letteropening{To whom it may concern,}
+\letterclosing{Sincerely,}
+%%\letterenclosure[Attached]{Curriculum Vitae}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+    {\today}
+    {Chiao Fu~~~·~~~Cover Letter}
+    {}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+
+\cvparagraph{}
+%I am currently a second-year Master's student in Computer Science and Engineering at UCSD. My special interests lie in robotic, embedded system, human-computer interaction (HCI), and software engineering. I have many projects and internship related to embedded system and robotics. I'm highly interested in joining your team and confident that my knowledge, experiences, and personal characteristics will make me the best fit to this position.
+
+I am currently a second-year Master's student in Computer Science and Engineering at UCSD. My special interests lie in software engineering, human-computer interaction (HCI) and ubiquitous computing. I'm highly interested in joining your team and confident that my knowledge, experiences, and personal characteristics will make me the best fit to this position.
+
+I have grounded 6-year programming experience with specialty in C++ and Python but not limited to those languages. I am a quick learner and I like to keep trying new things. I studied broadly from theory-based and project-oriented courses. My diverse knowledge makes me able to solve real-world problems by applying multiple technologies and thinking from different points of view. In the last internship, I focused on a project about automated guided vehicle (AGV) and contributed in many aspects. I developed a user-friendly web interface for monitoring the AGV in real-time with HTML and JavaScript. Also, I integrated the AGV with wireless charging module and IEEE 802.15.4 radio module to ensure connection security in factory scenarios. Another experience as a research assistant fostered my independent research ability. I have led a project and participated in every stage from designing and implementation to publishing and presentation. I consider myself as an active team player and those teamwork experiences allow me to cooperate with various people.
+
+I have gained solid fundamental knowledge of computer science from previous studies, accumulated many implementation and research experiences, and collaborated with a variety of groups. Being incredibly passionate about software engineering, I am eager to step into industry, contribute to the company and make the world better. I hope you would consider me for this position and I look forward to discussing this opportunity further with you.
+
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
